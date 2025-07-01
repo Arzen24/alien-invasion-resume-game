@@ -1,17 +1,40 @@
-# Alien Invasion – Resume Project
+# 🚀 Alien Invasion – Resume Project Game
 
-A Python-based arcade-style shooting game made with Pygame.  
-Shoot the aliens, protect your ship, and aim for the high score.  
-Press `R` to restart after game over.
+A classic 2D arcade-style space shooter built using **Python** and **Pygame**.
 
-## Controls
-- Arrow Keys: Move the ship (left/right/up/down)
-- Spacebar: Fire bullet
-- R: Restart after Game Over
-- Q: Quit game
+Shoot waves of aliens, protect your spaceship, and aim for a high score.  
+This is a personal resume project showing programming, design, and Pygame skills.
 
-## How to Run
-1. Make sure Python and Pygame are installed.
-2. Run the game using:
+![Alien Invasion Gameplay](images/screenshot.png)
+
+---
+
+## 🎮 Game Features
+
+- 🔫 Bullet Shooting with limited bullets
+- 👾 Infinite Alien Respawn
+- 💥 Game Over on collision or bottom reach
+- 💯 Scoring + High Score Tracking
+- 🔁 Press `R` to Restart the Game
+- ⬅️➡️⬆️⬇️ Full 4-Directional Ship Movement
+- ⚡ Aliens speed up every 1000 points
+
+---
+
+## 🕹️ Controls
+
+| Key        | Action               |
+|------------|----------------------|
+| ← / →      | Move Left / Right    |
+| ↑ / ↓      | Move Up / Down       |
+| Spacebar   | Fire Bullet          |
+| R          | Restart after death  |
+| Q          | Quit the Game        |
+
+---
+
+## ▶️ How to Play
+
+1. **Install Pygame**
    ```bash
-   python alien_invasion.py
+   pip install pygame
