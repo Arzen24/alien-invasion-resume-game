@@ -1,40 +1,49 @@
-# 🚀 Alien Invasion – Resume Project Game
+# 🚀 Alien Invasion Game
 
-A classic 2D arcade-style space shooter built using **Python** and **Pygame**.
-
-Shoot waves of aliens, protect your spaceship, and aim for a high score.  
-This is a personal resume project showing programming, design, and Pygame skills.
-
-![Alien Invasion Gameplay](https://drive.google.com/file/d/1nlLqsTYygV59gWxYGUo-ZCdEOuAIAmqT/view?usp=sharing)
+A classic Alien Invasion arcade-style shooter made in Python using **Pygame**.  
+This project was built as part of a resume portfolio — showcasing skills in object-oriented programming, basic game development, and GitHub project structuring.
 
 ---
 
-## 🎮 Game Features
+## 🎮 Gameplay
 
-- 🔫 Bullet Shooting with limited bullets
-- 👾 Infinite Alien Respawn
-- 💥 Game Over on collision or bottom reach
-- 💯 Scoring + High Score Tracking
-- 🔁 Press `R` to Restart the Game
-- ⬅️➡️⬆️⬇️ Full 4-Directional Ship Movement
-- ⚡ Aliens speed up every 1000 points
+- Control the ship using arrow keys (← ↑ ↓ →)
+- Press **Spacebar** to shoot
+- Game ends when an alien hits the ship
+- Aliens get faster every 1000 points
+- Press **R** to restart after game over
 
 ---
 
-## 🕹️ Controls
+## 📸 Screenshot
 
-| Key        | Action               |
-|------------|----------------------|
-| ← / →      | Move Left / Right    |
-| ↑ / ↓      | Move Up / Down       |
-| Spacebar   | Fire Bullet          |
-| R          | Restart after death  |
-| Q          | Quit the Game        |
+![Alien Invasion Gameplay](images/screenshot.png)
+
+> *(Make sure `screenshot.png` is placed in the `images/` folder inside your repo)*
 
 ---
 
-## ▶️ How to Play
+## 🧱 Features
 
-1. **Install Pygame**
-   ```bash
-   pip install pygame
+- Smooth 2D movement (left, right, up, down)
+- Bullet shooting with collision detection
+- Dynamic alien fleet generation
+- Increasing difficulty over time
+- Game Over + Restart
+- Score + High Score display
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Pygame 2.6+
+- OOP principles
+- Git + GitHub for version control
+
+---
+
+## 🧩 Setup Instructions
+
+1. Clone the repo:
+
